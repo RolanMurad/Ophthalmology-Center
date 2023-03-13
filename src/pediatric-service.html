@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link type="image/x-icon" href="./images/favicon.ico" rel="shortcut icon">
+  <title>Pediatric ophthalmology</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<!-- !Pediatric-Service -->
+
+<body>
+  <!-- !Header -->
+  @@include('./html/_header.html')
+
+  <div class="wrapper">
+    <main class="main">
+      <!-- !Sections -->
+      @@include('./html/servicePediatric/_serviceHero.html')
+      @@include('./html/servicePediatric/_serviceDoctors.html')
+      @@include('./html/servicePediatric/_serviceInfo.html')
+      @@include('./html/servicePediatric/_serviceBenefits.html')
+      @@include('./html/servicePediatric/_servicePrices.html')
+      @@include('./html/_reviews-box.html')
+      @@include('./html/_consultation.html')
+    </main>
+    <!-- !Footer -->
+    @@include('./html/_footer.html')
+  </div>
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

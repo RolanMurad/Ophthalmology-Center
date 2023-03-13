@@ -1,0 +1,139 @@
+// !Discounts
+.section__discounts {
+  padding: 100px 0;
+  background: #F2F5F5;
+}
+
+.ticker {
+  overflow: hidden;
+  position: relative;
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__item {
+    @extend%title-fonts;
+    line-height: 120%;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 66px;
+    animation: ticker 5s linear infinite;
+    position: relative;
+    background: transparent;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+
+    &::after {
+      position: absolute;
+      content: "";
+      width: 16px;
+      height: 16px;
+      background-color: #F69C0F;
+      left: 0;
+      top: 50%;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateZ(0);
+  }
+
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.discounts__slider {
+  position: relative;
+
+  &-wrapper {
+    display: flex;
+    align-self: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(46, 58, 64, 0.15);
+    border-radius: 20px;
+    max-width: 630px;
+    gap: 40px;
+    padding: 28px 20px 30px 10px;
+    height: 305px;
+    margin: 20px 0;
+    position: relative;
+  }
+
+  &-item {
+    padding: 0 15px;
+  }
+
+  &-img {
+    max-width: 220px;
+    align-self: center;
+  }
+
+  &-title {
+    a {
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 120%;
+      margin-bottom: 10px;
+      color: #2E3A40;
+    }
+
+    a::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+    }
+  }
+
+  &-left {
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  &-right {
+    position: absolute;
+    top: 50%;
+    right: -8%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  &-box {
+    display: flex;
+    flex-direction: column;
+    justify-items: stretch;
+  }
+}
+
+.slider__list {
+  position: absolute;
+  bottom: 0;
+
+  &-item {
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+  }
+
+  &-discount {
+    margin-bottom: 15px;
+    background: url(../images/discounts-descr-bg.svg);
+    padding: 12px 35px 12px 55px;
+  }
+}

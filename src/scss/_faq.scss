@@ -1,0 +1,128 @@
+// !Faq
+.section__faq {
+  padding: 54px 0 82px;
+  background: linear-gradient(to right, #F2F5F5 63%, #F69C0F 50%);
+}
+
+.accordion {
+  width: 100%;
+  margin-bottom: 20px;
+
+  &.open>.accordion__control {
+    background-color: #FFFFFF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+    box-shadow: 0px 4px 25px rgba(46, 58, 64, 0.15);
+  }
+
+  &__control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #E0E7EA;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    color: #2E3A40;
+    text-align: left;
+    font-size: 22px;
+  }
+
+  &__content {
+    padding: 20px;
+    cursor: pointer;
+    background: #FFFFFF;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+  }
+
+  &__icon {
+    position: relative;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border-radius: 100%;
+    background-color: #5AC134;
+    transition: transform 0.3s ease-out;
+    flex-shrink: 0;
+    margin-left: 10px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 50%;
+      height: 2px;
+      background-color: #000000;
+      transform: translate(-50%, -50%);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 2px;
+      height: 50%;
+      background-color: #000000;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &__content {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    will-change: max-height;
+    transition: all 0.3s ease-out;
+    box-sizing: content-box;
+  }
+}
+
+.open .accordion__content {
+  opacity: 1;
+  padding: 20px;
+}
+
+.open .accordion__icon {
+  transform: rotate(45deg);
+  background-color: #F69C0F;
+}
+
+.faq {
+  display: flex;
+  gap: 60px;
+
+  &__title {
+    @extend%title-fonts;
+    line-height: 120%;
+    margin-bottom: 37px;
+  }
+
+  &__item {
+    flex: 0 1 50%;
+  }
+
+  &__img {
+    img {
+      max-width: 597px;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

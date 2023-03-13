@@ -1,0 +1,351 @@
+// !Service Doctors
+.section__services-doctors {
+  padding-top: 80px;
+  background: #FFFFFF;
+}
+
+.services-doctors {
+  display: flex;
+  align-content: flex-start;
+  gap: 50px;
+
+  &-title {
+    @extend%title-fonts;
+    line-height: 120%;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 550px;
+      background-color: #E0E7EA;
+      height: 2px;
+      top: 50%;
+      right: 0;
+    }
+  }
+
+  &-title.services-doctors-title--surgery {
+    &::after {
+      content: "";
+      position: absolute;
+      width: 700px;
+      background-color: #E0E7EA;
+      height: 2px;
+      top: 50%;
+      right: 0;
+    }
+  }
+
+  &-title.services-doctors-title--pediatric {
+    &::after {
+      content: "";
+      position: absolute;
+      width: 700px;
+      background-color: #E0E7EA;
+      height: 2px;
+      top: 50%;
+      right: 0;
+    }
+  }
+
+
+  &__title {
+    @extend%title-fonts;
+    line-height: 120%;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 550px;
+      background-color: #E0E7EA;
+      height: 2px;
+      top: 50%;
+      right: 0;
+    }
+  }
+
+  &-title--first {
+    &::after {
+      width: 720px;
+    }
+  }
+}
+
+.services-doctors__experts {
+  &-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 45px;
+  }
+
+  &-card {
+    display: flex;
+    gap: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(46, 58, 64, 0.15);
+    border-radius: 15px;
+    padding: 40px 40px 30px 30px;
+    transition: all .3s ease-in-out;
+    position: relative;
+
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+
+  &-img {
+    max-width: 270px;
+  }
+
+  &-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  &-name {
+    a {
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 130%;
+      color: #2E3A40;
+    }
+  }
+
+  &-name>a::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  &-notice {
+    margin-left: auto;
+    margin-right: 30px;
+    position: relative;
+    padding-left: 40px;
+    max-width: 850px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      height: 52px;
+      width: 2px;
+      background-color: #F69C0F;
+      top: 0;
+      left: 0;
+    }
+
+    span {
+      color: #F69C0F;
+    }
+
+    color: #404649;
+    line-height: 26px;
+  }
+}
+
+.services-doctors__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  gap: 15px;
+
+  &-item:last-child {
+    margin: 15px 0;
+  }
+
+  &-rank {
+    color: #2E3A40;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 145%;
+  }
+
+  &-link {
+    width: 270px;
+    position: absolute;
+    color: #404649;
+
+    svg {
+      position: relative;
+      transform: translate(50%, 22%);
+    }
+  }
+}
+
+.services-doctors__aside {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 300px;
+
+  &-item {
+    background: #F2F5F5;
+    margin-bottom: 2px;
+    padding: 20px 65px 20px 20px;
+    transition: all .3s ease-in-out;
+    position: relative;
+    border: 2px solid transparent;
+
+    &:hover {
+      background: #FFFFFF;
+      border: 2px solid #FFFFFF;
+      box-shadow: 0px 4px 25px rgba(46, 58, 64, 0.15);
+      border-radius: 15px;
+    }
+  }
+
+  &-item.services-doctors__aside-item--price {
+    border: 2px solid #FFFFFF;
+  }
+
+  &-link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #2E3A40;
+
+    svg {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      transition: all .3s ease-in-out;
+    }
+  }
+
+  &-link:hover {
+    svg {
+      opacity: 100%;
+    }
+  }
+
+  &-item>a::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  &-item:first-child {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  &-item:last-child {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}
+
+
+.services-doctors__schedule {
+  padding: 30px !important;
+  border-radius: 15px;
+  overflow: hidden;
+  background: url(../images/timeline-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  &-day {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 145%;
+    color: #FFFFFF;
+  }
+
+  &-time {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 145%;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+  }
+}
+
+.services-doctors__grid {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  &--pediatric {
+    grid-template-rows: repeat(1, 1fr);
+  }
+
+
+  &-item {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(46, 58, 64, 0.15);
+    border-radius: 15px;
+    max-width: 480px;
+    height: auto;
+    padding: 20px 25px 20px 30px;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
+    position: relative;
+
+    &:hover {
+      background: #FFFFFF;
+      box-shadow: 0px 4px 25px rgba(46, 58, 64, 0.15);
+      transform: scale(1.02);
+      z-index: 1;
+    }
+  }
+
+  &-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+  }
+
+  &-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+
+  &-title {
+    margin-bottom: 75px;
+    max-width: 200px;
+
+    a {
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 130%;
+      color: #2E3A40;
+    }
+  }
+
+  &-title>a::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+  &-link {
+    position: relative;
+    margin-top: auto;
+
+    svg {
+      position: absolute;
+      top: 50%;
+      transform: translate(50%, -50%);
+    }
+  }
+}

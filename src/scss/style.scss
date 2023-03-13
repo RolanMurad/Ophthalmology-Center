@@ -1,0 +1,48 @@
+//!Global Vars
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+// !Index
+//!Section or Pages
+@import './header';
+@import './hero';
+@import './ability';
+@import './about';
+@import './discounts';
+@import './reviews-box';
+@import './faq';
+@import './blog-box';
+@import './сonsultation';
+@import './phones';
+@import './location';
+@import './footer';
+
+//!Services
+@import './services/services';
+
+//!Service
+@import './service/serviceHero';
+@import './service/serviceDoctors';
+@import './service/serviceInfo';
+@import './service/serviceBenefits';
+@import './service/servicePrices';
+
+// !Doctors
+@import './doctors/doctors';
+
+// !Prices
+@import './prices/prices';
+
+//!Actions
+@import './actions/actions';
+
+//!Reviews
+@import './reviews/reviews';
+
+
+
+//!Media-Quiries
+@import './media';

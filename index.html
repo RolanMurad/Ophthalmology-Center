@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Website about Ophthalmology Center">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <title>Ophthalmology Center</title>
+  <link type="image/x-icon" href="./images/favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" href="css/style.min.css">
+</head><!-- !Index -->
+
+<body> <!-- !Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper"> <a class="logo" href="./index.html">
+          <picture>
+            <source srcset="./images/logo.svg" type="image/webp"><img class="logo__img" src="./images/logo.svg"
+              alt="logo">
+          </picture>
+        </a>
+        <div class="header__menu">
+          <div class="header__menu-contacts"> <a class="header__menu-link" href="contacts.html"
+              aria-label="First address">Freshford Road Co. Kilkenny</a> <a class="header__menu-link"
+              href="contacts.html" aria-label="Second address">Cork Road, Butlerstown North, Waterford</a> <a
+              class="header__menu-tel" href="tel:0567775372" aria-label="Phone number">7801 767 690</a> </div>
+          <nav class="navbar" data-navbar>
+            <ul class="nav__list">
+              <li class="dropdown"> <button class="dropdown__button" type="button">Services</button>
+                <picture>
+                  <source srcset="images/down-arrow.svg" type="image/webp"><img class="dropdown__arrow"
+                    src="images/down-arrow.svg" alt="arrow">
+                </picture>
+                <ul class="dropdown__list">
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="cataracts-service.html">
+                      Treatment cataracts </a> </li>
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="surgery-service.html"> Surgery
+                      of the retina and cone body </a> </li>
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="laser-service.html"> Laser
+                      methods of treatment </a> </li>
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="glaucoma-service.html">
+                      Treatment of glaucoma treatment </a> </li>
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="correction-service.html"> Laser
+                      vision correction </a> </li>
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="pediatric-service.html">
+                      Pediatric ophthalmology </a> </li>
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="injection-service.html">
+                      Injection of drugs into the vitreous body </a> </li>
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="glasses-service.html"> Glasses
+                      and contact lenses </a> </li>
+                </ul>
+              </li>
+              <li class="dropdown"> <button class="dropdown__button" type="button">Doctors</button>
+                <picture>
+                  <source srcset="images/down-arrow.svg" type="image/webp"><img class="dropdown__arrow"
+                    src="images/down-arrow.svg" alt="arrow">
+                </picture>
+                <ul class="dropdown__list">
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="doctors.html"> Professor Tom
+                      Williamson </a> </li>
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="doctors.html"> Mr Francesco
+                      Stringa </a> </li>
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="doctors.html"> Miss Miriam
+                      Minihan </a> </li>
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="doctors.html"> Ms Theresa
+                      Richardson </a> </li>
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="doctors.html"> Mr Richard Bowman
+                    </a> </li>
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="doctors.html"> Mr Dan Lindfield
+                    </a> </li>
+                </ul>
+              </li>
+              <li class="nav__list-item"><a class="nav__link" href="prices.html">Prices</a></li>
+              <li class="nav__list-item"><a class="nav__link" href="actions.html">Actions</a></li>
+              <li class="nav__list-item"><a class="nav__link" href="reviews.html">Reviews</a></li>
+              <li class="nav__list-item"><a class="nav__link" href="contacts.html">Contact us</a></li>
+              <li class="header__lang--en"> <label class="radio-btn"> <input class="radio-btn__input" type="radio"
+                    name="language" checked> <a class="radio-btn__style" href="#"><span>EN</span></a> </label> </li>
+              <li class="header__lang--de"> <label class="radio-btn"> <input class="radio-btn__input" type="radio"
+                    name="language"> <a class="radio-btn__style" href="#"><span>DE</span></a> </label> </li>
+            </ul>
+          </nav>
+        </div> <button class="burger" data-burger aria-label="Open Menu" aria-expanded="false"> <span
+            class="burger__line"></span> </button>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper">
+    <main class="main"> <!-- !Sections --> <!-- !Hero -->
+      <section class="section__hero">
+        <div class="container">
+          <div class="hero main-hero">
+            <div class="hero__item">
+              <h1 class="hero__item-title main-hero__title"> Center of modern <span>ophthalmology</span> </h1>
+              <p class="hero__item-descr"> Modern methods of treatment used in the center allow you to quickly and
+                painlessly get rid of the disease and painlessly, as well as restore full vision </p>
+              <div class="hero__links">
+                <div class="modal__wrapper"> <a class="btn modal-btn hero__links--visit" data-modal-button href="#">
+                    Online appointment </a>
+                  <div class="fade-block hidden" data-modal id="modal-1">
+                    <div class="modal-window">
+                      <div class="card">
+                        <div class="card__header">
+                          <h3 class="card__header-title">Write a message to us</h3>
+                          <h4 class="card__header-subtitle">We will answer you within 30 minutes</h4>
+                        </div>
+                        <div class="card__body">
+                          <form class="consultation__form card__form">
+                            <div class="consultation__form-item card__form-item"> <input
+                                class="consultation__input-name card__input-item" type="text" required
+                                placeholder="Mike"> <label class="consultation__name"> Your name* </label> </div>
+                            <div class="consultation__form-item card__form-item"> <input
+                                class="consultation__input-phone" type="tel" placeholder="Phone number" required> <label
+                                class="consultation__phone"> Your phone number* </label>
+                              <div class="consultation__accordion"> <button class="consultation__accordion-control">
+                                  <span class="consultation-accordion-title"> Add a comment </span> <span
+                                    class="consultation__accordion-icon"> </span> </button>
+                                <div class="consultation__accordion-content consultation__accordion-content--card">
+                                  <input class="consultation__accordion-comment" type="text"
+                                    placeholder="Add a commentary"> </div>
+                              </div>
+                            </div>
+                          </form> <button class="consultation__button consultation__button--card" type="submit"> Make an
+                            appointment </button>
+                          <div class="card__close" data-modal-close>
+                            <picture>
+                              <source srcset="./images/cancel.svg" type="image/webp"><img src="./images/cancel.svg"
+                                alt="cancel.btn">
+                            </picture>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <a class="hero__links-tel" href="tel:7801767690" aria-label="Phone number"><svg width="90"
+                    height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_103_4571)">
+                      <circle cx="45" cy="41" r="33" fill="#5AC134" />
+                      <path
+                        d="M56.785 46.8624V50.4109C56.7905 51.7673 55.5708 52.9001 54.2013 52.7765C42.381 52.7858 33.2144 43.534 33.2236 31.7931C33.1003 30.4308 34.2274 29.2157 35.5821 29.2145H39.1377C39.7128 29.2088 40.2704 29.4121 40.7066 29.7864C41.9464 30.8506 42.7439 34.4626 42.4371 35.8985C42.1975 37.0196 41.0674 37.8039 40.2991 38.5707C41.9863 41.532 44.4431 43.9839 47.4102 45.6677C48.1785 44.9009 48.9644 43.7731 50.0877 43.534C51.5287 43.2273 55.1639 44.0259 56.2238 45.2744C56.5997 45.7171 56.7994 46.2823 56.785 46.8624Z"
+                        stroke="#2E3A40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      <path
+                        d="M48.2739 33.7977C49.2393 33.986 50.1975 34.4118 50.893 35.1072C51.5884 35.8027 52.0142 36.7609 52.2025 37.7263M48.9287 29.2144C50.9343 29.4372 52.739 30.4074 54.1668 31.8334C55.5946 33.2594 56.5605 35.0662 56.7858 37.0715"
+                        stroke="#2E3A40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </g>
+                    <defs>
+                      <filter id="filter0_d_103_4571" x="0" y="0" width="90" height="90" filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                          result="hardAlpha" />
+                        <feOffset dy="4" />
+                        <feGaussianBlur stdDeviation="6" />
+                        <feComposite in2="hardAlpha" operator="out" />
+                        <feColorMatrix type="matrix"
+                          values="0 0 0 0 0.0981771 0 0 0 0 0.120833 0 0 0 0 0.111318 0 0 0 0.15 0" />
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_103_4571" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_103_4571" result="shape" />
+                      </filter>
+                    </defs>
+                  </svg> </a> <a class="hero__links-message" href="reviews.html" aria-label="message"><svg width="90"
+                    height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_103_4575)">
+                      <circle cx="45" cy="41" r="33" fill="#5AC134" />
+                      <path
+                        d="M54.5822 28.0356H35.4176C33.5498 28.0356 32.0356 29.5527 32.0356 31.424V43.7817C32.0356 45.6531 33.5498 47.1701 35.4176 47.1701H36.8973V55.1428L44.9999 47.1701H54.5822C56.4501 47.1701 57.9642 45.6531 57.9642 43.7817V31.424C57.9642 29.5527 56.45 28.0356 54.5822 28.0356Z"
+                        stroke="#2E3A40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M38.5181 34.4138H51.4824M38.5181 40.792H46.6207" stroke="#2E3A40" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    </g>
+                    <defs>
+                      <filter id="filter0_d_103_4575" x="0" y="0" width="90" height="90" filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                          result="hardAlpha" />
+                        <feOffset dy="4" />
+                        <feGaussianBlur stdDeviation="6" />
+                        <feComposite in2="hardAlpha" operator="out" />
+                        <feColorMatrix type="matrix"
+                          values="0 0 0 0 0.0981771 0 0 0 0 0.120833 0 0 0 0 0.111318 0 0 0 0.15 0" />
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_103_4575" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_103_4575" result="shape" />
+                      </filter>
+                    </defs>
+                  </svg> </a>
+              </div>
+              <div class="hero__cards">
+                <div class="hero__cards-item">
+                  <h2 class="hero__cards-header"> 22 years </h2>
+                  <div class="hero__cards-bottom"> of successful work </div>
+                </div>
+                <div class="hero__cards-item">
+                  <h2 class="hero__cards-header"> 17 000 </h2>
+                  <div class="hero__cards-bottom"> healthy views </div>
+                </div>
+                <div class="hero__cards-item">
+                  <h2 class="hero__cards-header"> 4000+ </h2>
+                  <div class="hero__cards-bottom"> operations per year </div>
+                </div>
+              </div>
+            </div>
+            <div class="hero__item-img">
+              <picture>
+                <source srcset="./images/hero.webp" type="image/webp"><img class="hero__main-img"
+                  src="./images/hero.png" alt="hero-image">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section> <!-- !Ability -->
+      <section class="section__ability">
+        <div class="container">
+          <div class="ability">
+            <h2 class="ability__title"> We are able to </h2>
+            <div class="ability__grid">
+              <article class="ability__grid-item ability__grid-item--horizontal ability__grid-first">
+                <div class="ability__grid-inner ability__grid-inner--first">
+                  <div class="ability__grid-box">
+                    <h3 class="ability__grid-title"> Effectively operate cataracts </h3>
+                    <p class="ability__grid-info"> Cataract can develop with age, as well as from eye trauma, previous
+                      eye surgery, degenerative myopia... </p> <a class="ability__grid-link"
+                      href="cataracts-service.html"> Treatment <svg class="grid__arrow" width="26" height="26"
+                        viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="13" cy="13" r="13" fill="#5AC134" />
+                        <path d="M6 13H17M17 13L12.6667 17M17 13L12.6667 9" stroke="#2E3A40" stroke-width="2"
+                          stroke-linecap="round" />
+                      </svg> </a>
+                  </div>
+                  <div class="ability__grid-img">
+                    <picture>
+                      <source srcset="./images/ability-1.webp" type="image/webp"><img src="./images/ability-1.png"
+                        alt="image">
+                    </picture>
+                  </div>
+                </div>
+              </article>
+              <article class="ability__grid-item ability__vertical ability__grid-item--vertical ability__grid-second">
+                <div class="ability__vertical-inner">
+                  <div class="ability__grid-img">
+                    <picture>
+                      <source srcset="./images/ability-2.webp" type="image/webp"><img src="./images/ability-2.png"
+                        alt="image">
+                    </picture>
+                  </div>
+                  <h3 class="ability__grid-title"> Carry out laser vision correction </h3>
+                  <p class="ability__grid-info"> Retinal diseases are primarily treated with a thermolaser </p> <a
+                    class="ability__grid-link" href="laser-service.html"> Treatment <svg class="grid__arrow" width="26"
+                      height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="13" cy="13" r="13" fill="#5AC134" />
+                      <path d="M6 13H17M17 13L12.6667 17M17 13L12.6667 9" stroke="#2E3A40" stroke-width="2"
+                        stroke-linecap="round" />
+                    </svg> </a>
+                </div>
+              </article>
+              <article class="ability__grid-item ability__vertical ability__grid-item--vertical ability__grid-third">
+                <div class="ability__vertical-inner">
+                  <div class="ability__grid-img">
+                    <picture>
+                      <source srcset="./images/ability-3.webp" type="image/webp"><img src="./images/ability-3.png"
+                        alt="image">
+                    </picture>
+                  </div>
+                  <h3 class="ability__grid-title"> Save retina </h3>
+                  <p class="ability__grid-info"> Acute pathology, which without immediate surgical treatment can... </p>
+                  <a class="ability__grid-link" href="glaucoma-service.html"> Treatment <svg class="grid__arrow"
+                      width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="13" cy="13" r="13" fill="#5AC134" />
+                      <path d="M6 13H17M17 13L12.6667 17M17 13L12.6667 9" stroke="#2E3A40" stroke-width="2"
+                        stroke-linecap="round" />
+                    </svg> </a>
+                </div>
+              </article>
+              <article class="ability__grid-item ability__vertical ability__grid-item--vertical ability__grid-fourth">
+                <div class="ability__vertical-inner">
+                  <div class="ability__grid-img">
+                    <picture>
+                      <source srcset="./images/ability-4.webp" type="image/webp"><img src="./images/ability-4.png"
+                        alt="image">
+                    </picture>
+                  </div>
+                  <h3 class="ability__grid-title"> Finding a common language with children </h3>
+                  <p class="ability__grid-info"> The center of modern ophthalmology conducts consultations... </p> <a
+                    class="ability__grid-link" href="pediatric-service.html"> Treatment <svg class="grid__arrow"
+                      width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="13" cy="13" r="13" fill="#5AC134" />
+                      <path d="M6 13H17M17 13L12.6667 17M17 13L12.6667 9" stroke="#2E3A40" stroke-width="2"
+                        stroke-linecap="round" />
+                    </svg> </a>
+                </div>
+              </article>
+              <article class="ability__grid-item ability__vertical ability__grid-item--vertical ability__grid-fifth">
+                <div class="ability__vertical-inner">
+                  <div class="ability__grid-img">
+                    <picture>
+                      <source srcset="./images/ability-5.webp" type="image/webp"><img src="./images/ability-5.png"
+                        alt="image">
+                    </picture>
+                  </div>
+                  <h3 class="ability__grid-title"> Pick up glasses and contact lenses </h3>
+                  <p class="ability__grid-info"> Normally, the refractive system of the eye (cornea and lens) focuses...
+                  </p> <a class="ability__grid-link" href="glasses-service.html"> Treatment <svg class="grid__arrow"
+                      width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="13" cy="13" r="13" fill="#5AC134" />
+                      <path d="M6 13H17M17 13L12.6667 17M17 13L12.6667 9" stroke="#2E3A40" stroke-width="2"
+                        stroke-linecap="round" />
+                    </svg> </a>
+                </div>
+              </article>
+              <article class="ability__grid-item ability__grid-item--horizontal ability__grid-sixth">
+                <div class="ability__grid-inner ability__grid-inner--sixth">
+                  <div class="ability__grid-box">
+                    <h3 class="ability__grid-title"> Solve any problems with vision </h3>
+                    <p class="ability__grid-info"> Check out other services offered by the clinic </p> <a
+                      class="ability__grid-link" href="correction-service.html"> Treatment <svg class="grid__arrow"
+                        width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="13" cy="13" r="13" fill="#5AC134" />
+                        <path d="M6 13H17M17 13L12.6667 17M17 13L12.6667 9" stroke="#2E3A40" stroke-width="2"
+                          stroke-linecap="round" />
+                      </svg> </a>
+                  </div>
+                  <div class="ability__grid-img">
+                    <picture>
+                      <source srcset="./images/ability-6.webp" type="image/webp"><img src="./images/ability-6.png"
+                        alt="image">
+                    </picture>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="ability__sidenav">
+              <div class="ability__sidenav-item ability__sidenav-item--first"> <a class="ability__sidenav-link"
+                  href="contacts.html"> <svg class="ability__sidenav-icon" width="21" height="21" viewBox="0 0 21 21"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M13.1389 4.69444C13.917 4.84626 14.6894 5.18942 15.25 5.75C15.8106 6.31058 16.1537 7.083 16.3056 7.86111M13.6667 1C15.2833 1.17959 16.738 1.96168 17.8889 3.11111C19.0398 4.26054 19.8184 5.71695 20 7.33333M19.9993 15.2254V18.0857C20.0038 19.1791 19.0206 20.0921 17.9167 19.9926C8.38887 20 1 12.5425 1.00746 3.07858C0.908035 1.98056 1.81655 1.00112 2.90855 1.00009H5.77453C6.23816 0.995538 6.68762 1.15939 7.03915 1.46111C8.03857 2.31891 8.6814 5.23043 8.43407 6.38785C8.24096 7.2915 7.33005 7.9237 6.71075 8.54178C8.07071 10.9288 10.051 12.9051 12.4427 14.2624C13.062 13.6443 13.6955 12.7352 14.6009 12.5425C15.7624 12.2953 18.6926 12.939 19.547 13.9454C19.85 14.3022 20.0109 14.7578 19.9993 15.2254Z"
+                      stroke="#2E3A40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>Online appointment</a> </div>
+              <div class="ability__sidenav-item ability__sidenav-item--second"> <a class="ability__sidenav-link"
+                  href="contacts.html"> <svg class="ability__sidenav-icon" width="19" height="22" viewBox="0 0 19 22"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M18 9.18182C18 15.5455 9.5 21 9.5 21C9.5 21 1 15.5455 1 9.18182C1 7.01187 1.89553 4.93079 3.48959 3.3964C5.08365 1.86201 7.24566 1 9.5 1C11.7543 1 13.9163 1.86201 15.5104 3.3964C17.1045 4.93079 18 7.01187 18 9.18182Z"
+                      stroke="#2E3A40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M9.49996 12.2924C11.0648 12.2924 12.3333 10.9856 12.3333 9.37363C12.3333 7.76165 11.0648 6.45488 9.49996 6.45488C7.93516 6.45488 6.66663 7.76165 6.66663 9.37363C6.66663 10.9856 7.93516 12.2924 9.49996 12.2924Z"
+                      stroke="#2E3A40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg> Where we are</a> </div>
+              <div class="ability__sidenav-item ability__sidenav-item--third"> <a class="ability__sidenav-link"
+                  href="contacts.html"> <svg class="ability__sidenav-icon" width="21" height="21" viewBox="0 0 21 21"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.7502 5.4706H15.2502M5.7502 9.94119H11.6877M3.47826 1H17.5217C18.8904 1 20 2.06332 20 3.375V12.0368C20 13.3484 18.8904 14.4118 17.5217 14.4118H10.5L4.5625 20V14.4118H3.47826C2.10956 14.4118 1 13.3484 1 12.0368V3.375C1 2.06333 2.10956 1 3.47826 1Z"
+                      stroke="#2E3A40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg> Sign up for a consultation</a> </div>
+            </div>
+          </div>
+        </div>
+      </section> <!-- !About -->
+      <section class="section__about">
+        <div class="container-fluid">
+          <div class="about">
+            <div class="about__item about__item--left">
+              <div class="about__slider">
+                <div class="about__slider-item">
+                  <picture>
+                    <source srcset="./images/slider-1.webp" type="image/webp"><img src="./images/slider-1.png"
+                      alt="slider__about">
+                  </picture>
+                  <div class="about__slider-box">
+                    <h2 class="about__slider-title"> About us </h2>
+                    <p class="about__slider-descr"> We are a state-of-the-art ophthalmology center that strives to
+                      fulfill our commitment to provide comprehensive medical services to our clients </p>
+                  </div>
+                </div>
+                <div class="about__slider-item">
+                  <picture>
+                    <source srcset="./images/slider-2.webp" type="image/webp"><img src="./images/slider-2.png"
+                      alt="slider__about">
+                  </picture>
+                  <div class="about__slider-box">
+                    <h4 class="about__slider-title"> About us </h4>
+                    <p class="about__slider-descr"> Highly accurate and fast diagnosis of diseases. We will help even if
+                      doctors in other medical institutions were not able to determine the pathologyю </p>
+                  </div>
+                </div>
+                <div class="about__slider-item">
+                  <picture>
+                    <source srcset="./images/slider-3.webp" type="image/webp"><img src="./images/slider-3.png"
+                      alt="slider__about">
+                  </picture>
+                  <div class="about__slider-box">
+                    <h4 class="about__slider-title"> About us </h4>
+                    <p class="about__slider-descr"> Competent and effective treatment. Treatment regimens are developed
+                      and adjusted by experienced specialists who continually improve their qualifications. </p>
+                  </div>
+                </div>
+                <div class="about__slider-item">
+                  <picture>
+                    <source srcset="./images/slider-4.webp" type="image/webp"><img src="./images/slider-4.png"
+                      alt="slider__about">
+                  </picture>
+                  <div class="about__slider-box">
+                    <h4 class="about__slider-title"> About us </h4>
+                    <p class="about__slider-descr"> Preventive health care for you and your family members. Routine
+                      check-ups and consultations can help prevent many diseases and detect pathologies in their early
+                      stages, when they are easiest to treat. </p>
+                  </div>
+                </div>
+                <div class="about__slider-item">
+                  <picture>
+                    <source srcset="./images/slider-5.webp" type="image/webp"><img src="./images/slider-5.png"
+                      alt="slider__about">
+                  </picture>
+                  <div class="about__slider-box">
+                    <h4 class="about__slider-title"> About us </h4>
+                    <p class="about__slider-descr"> Our goal is to provide patients with the best conditions of stay in
+                      our center, to provide highly qualified assistance in diagnosis and treatment of diseases of the
+                      visual organ on modern equipment available in the market today. </p>
+                  </div>
+                </div>
+                <div class="about__slider-item">
+                  <picture>
+                    <source srcset="./images/slider-6.webp" type="image/webp"><img src="./images/slider-6.png"
+                      alt="slider__about">
+                  </picture>
+                  <div class="about__slider-box">
+                    <h4 class="about__slider-title"> About us </h4>
+                    <p class="about__slider-descr"> The center is equipped with new equipment, like modern clinics in
+                      the United States, Great Britain, Japan and Germany. The equipment provided by the 2019-2020
+                      equipment, making us a unique and state-of-the-art center in the field of ophthalmology. </p>
+                  </div>
+                </div>
+                <div class="about__slider-item">
+                  <picture>
+                    <source srcset="./images/slider-7.webp" type="image/webp"><img src="./images/slider-7.png"
+                      alt="slider__about">
+                  </picture>
+                  <div class="about__slider-box">
+                    <h4 class="about__slider-title"> About us </h4>
+                    <p class="about__slider-descr"> We provide services for various methods of examination:
+                      refractometry of the eye, keratotopography, pneumotonometry, perimetry, biomicroscopy and many
+                      others. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="about__counter">
+                <div><span id="cp">1</span>/7</div>
+              </div>
+            </div>
+            <div class="about__item about__item--right">
+              <div class="about__video">
+                <div class="about__video-item">
+                  <div class="about__video-img">
+                    <picture>
+                      <source srcset="./images/about-decor.webp" type="image/webp"><img src="./images/about-decor.png"
+                        alt="about-decor-image">
+                    </picture>
+                  </div> <a class="about__video-play" href="https://www.youtube.com/watch?v=BGBlXXXomko" data-fancybox>
+                    <svg width="102" height="102" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="51" cy="50.999" r="50" stroke="white" stroke-opacity="0.4" stroke-width="2" />
+                      <path
+                        d="M70 50.9555C70 50.9555 64.3 63.999 51 63.999C37.7 63.999 32 50.9555 32 50.9555C32 50.9555 37.7 38.999 51 38.999C64.3 38.999 70 50.9555 70 50.9555Z"
+                        fill="white" stroke="#20B6C9" stroke-width="2" stroke-linecap="round" />
+                      <ellipse cx="51" cy="51.4989" rx="5.97143" ry="5.97826" fill="white" stroke="#20B6C9"
+                        stroke-width="2" stroke-linecap="round" />
+                    </svg> Watch the video </a>
+                  <div class="about__video-decor">
+                    <picture>
+                      <source srcset="./images/about-decor-arrow.svg" type="image/webp"><img
+                        src="./images/about-decor-arrow.svg" alt="about-decor-image">
+                    </picture> It will take only 36 seconds
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> <!-- !Discounts -->
+      <section class="section__discounts">
+        <div class="ticker">
+          <div class="ticker__wrapper">
+            <div class="ticker__item"> DISCOUNTS </div>
+            <div class="ticker__item"> DISCOUNTS </div>
+            <div class="ticker__item"> DISCOUNTS </div>
+            <div class="ticker__item"> DISCOUNTS </div>
+            <div class="ticker__item"> DISCOUNTS </div>
+            <div class="ticker__item"> DISCOUNTS </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="discounts">
+            <h2 class="discounts__slider element-invisible">Discounts</h2>
+            <div class="discounts__slider">
+              <div class="discounts__slider-item">
+                <div class="discounts__slider-wrapper">
+                  <div class="discounts__slider-img">
+                    <picture>
+                      <source srcset="./images/discounts-1.webp" type="image/webp"><img src="./images/discounts-1.png"
+                        alt="discounts-image">
+                    </picture>
+                  </div>
+                  <div class="discounts__slider-box">
+                    <h3 class="discounts__slider-title"> <a href="actions.html"> For pensioners </a> </h3>
+                    <div class="discounts__slider-descr"> Present a pension certificate or a certificate that replaces
+                      the certificate.* </div>
+                    <ul class="slider__list">
+                      <li class="slider__list-item">
+                        <div class="slider__list-discount"> -50% </div>
+                        <div class="slider__list-type"> Diagnostics </div>
+                      </li>
+                      <li class="slider__list-item">
+                        <div class="slider__list-discount"> -20% </div>
+                        <div class="slider__list-type"> Operation </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="discounts__slider-item">
+                <div class="discounts__slider-wrapper">
+                  <div class="discounts__slider-img">
+                    <picture>
+                      <source srcset="./images/discounts-2.webp" type="image/webp"><img src="./images/discounts-2.png"
+                        alt="discounts-image">
+                    </picture>
+                  </div>
+                  <div class="discounts__slider-box">
+                    <h3 class="discounts__slider-title"> <a href="actions.html"> For students </a> </h3>
+                    <div class="discounts__slider-descr"> Show your student ID card, or a document that replaces the ID
+                      card.* </div>
+                    <ul class="slider__list">
+                      <li class="slider__list-item">
+                        <div class="slider__list-discount"> -30% </div>
+                        <div class="slider__list-type"> Diagnostics </div>
+                      </li>
+                      <li class="slider__list-item">
+                        <div class="slider__list-discount"> -10% </div>
+                        <div class="slider__list-type"> Operation </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="discounts__slider-item">
+                <div class="discounts__slider-wrapper">
+                  <div class="discounts__slider-img">
+                    <picture>
+                      <source srcset="./images/discounts-3.webp" type="image/webp"><img src="./images/discounts-3.png"
+                        alt="discounts-image">
+                    </picture>
+                  </div>
+                  <div class="discounts__slider-box">
+                    <h3 class="discounts__slider-title"> <a href="actions.html"> For Kids </a> </h3>
+                    <div class="discounts__slider-descr"> All children under the age of 12.* </div>
+                    <ul class="slider__list">
+                      <li class="slider__list-item">
+                        <div class="slider__list-discount"> -25% </div>
+                        <div class="slider__list-type"> Diagnostics </div>
+                      </li>
+                      <li class="slider__list-item">
+                        <div class="slider__list-discount"> -15% </div>
+                        <div class="slider__list-type"> Operation </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="discounts__slider-item">
+                <div class="discounts__slider-wrapper">
+                  <div class="discounts__slider-img">
+                    <picture>
+                      <source srcset="./images/discounts-4.webp" type="image/webp"><img src="./images/discounts-4.png"
+                        alt="discounts-image">
+                    </picture>
+                  </div>
+                  <div class="discounts__slider-box">
+                    <h3 class="discounts__slider-title"> <a href="actions.html"> For your friends </a> </h3>
+                    <div class="discounts__slider-descr"> Bring your friend and get a discount for two.* </div>
+                    <ul class="slider__list">
+                      <li class="slider__list-item">
+                        <div class="slider__list-discount"> -15% </div>
+                        <div class="slider__list-type"> Diagnostics </div>
+                      </li>
+                      <li class="slider__list-item">
+                        <div class="slider__list-discount"> -15% </div>
+                        <div class="slider__list-type"> Operation </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ticker">
+          <div class="ticker__wrapper">
+            <div class="ticker__item"> DISCOUNTS </div>
+            <div class="ticker__item"> DISCOUNTS </div>
+            <div class="ticker__item"> DISCOUNTS </div>
+            <div class="ticker__item"> DISCOUNTS </div>
+            <div class="ticker__item"> DISCOUNTS </div>
+            <div class="ticker__item"> DISCOUNTS </div>
+          </div>
+        </div>
+      </section> <!-- !Reviews-box -->
+      <section class="section__reviews-box">
+        <div class="container">
+          <div class="reviews-box">
+            <div class="reviews-box__item">
+              <div class="reviews-box__header">
+                <div class="reviews-box__header-decor">
+                  <picture>
+                    <source srcset="./images/reviews-box-decor.webp" type="image/webp"><img
+                      src="./images/reviews-box-decor.png" alt="reviews-image">
+                  </picture>
+                </div>
+                <div class="reviews-box__header-info">
+                  <h2 class="reviews-box__header-title">Feedback from our patients after treatment with us</h2>
+                  <h3 class="reviews-box__header-subtitle">Your healthy, full of joy eyes are happiness for us. We
+                    sincerely care about patients about patients, so we combine in our work modern technologies and high
+                    level of service</h3>
+                </div>
+                <div class="reviews-box__header-score"> <a class="reviews-box__header-btn btn" href="reviews.html"> <svg
+                      width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M11 4L15 8M1 18H4.58579C4.851 18 5.10536 17.8946 5.29289 17.7071L17.2929 5.70711C17.6834 5.31658 17.6834 4.68342 17.2929 4.29289L14.7071 1.70711C14.3166 1.31658 13.6834 1.31658 13.2929 1.70711L1.29289 13.7071C1.10536 13.8946 1 14.149 1 14.4142V18Z"
+                        stroke="#2E3A40" stroke-width="2" stroke-linejoin="round" />
+                      <path d="M10 18H17.5" stroke="#2E3A40" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg> Leave a feedback </a>
+                  <div class="reviews-box__header-img">
+                    <picture>
+                      <source srcset="./images/reviews-box-google.webp" type="image/webp"><img
+                        src="./images/reviews-box-google.png" alt="reviews-image">
+                    </picture>
+                  </div>
+                  <div class="reviews-box__header-inner">
+                    <div class="reviews-box__header-mark"> 4,6 </div>
+                    <div class="reviews-box__header-markimg">
+                      <picture>
+                        <source srcset="./images/reviews-box-stars.svg" type="image/webp"><img
+                          src="./images/reviews-box-stars.svg" alt="reviews-image">
+                      </picture> Average rating
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews-box__item">
+              <div class="reviews-box__slider">
+                <div class="reviews-box__slider-item">
+                  <div class="reviews-box__slider-inner">
+                    <div class="reviews-box__slider-header">
+                      <div class="reviews-box__slider-authorlogo">
+                        <picture>
+                          <source srcset="./images/reviews-box-1.webp" type="image/webp"><img
+                            src="./images/reviews-box-1.png" alt="reviews-image">
+                        </picture>
+                      </div>
+                      <div class="reviews-box__slider-authorinfo">
+                        <h4 class="reviews-box__slider-author"> <a href="reviews.html"> Paula I </a> </h4>
+                        <div class="reviews-box__slider-authorstars">
+                          <picture>
+                            <source srcset="./images/reviews-box-author-stars.webp" type="image/webp"><img
+                              src="./images/reviews-box-author-stars.png" alt="reviews-image">
+                          </picture> <span class="reviews-box__author-date">27 Sep 2022</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="reviews-box__slider-comment"> I am absolutely delighted with the result of my operation.
+                      I no longer need glasses to read my morning paper and no longer have to search for glasses
+                      .Professor Gartry filled me with confidence and calmness. I felt no pain, and was comfortable
+                      through the whole procedure. Thank you so much. </div>
+                  </div>
+                </div>
+                <div class="reviews-box__slider-item">
+                  <div class="reviews-box__slider-inner">
+                    <div class="reviews-box__slider-header">
+                      <div class="reviews-box__slider-authorlogo">
+                        <picture>
+                          <source srcset="./images/reviews-box-2.webp" type="image/webp"><img
+                            src="./images/reviews-box-2.png" alt="reviews-image">
+                        </picture>
+                      </div>
+                      <div class="reviews-box__slider-authorinfo">
+                        <h4 class="reviews-box__slider-author"> <a href="reviews.html"> Gillian Archer </a> </h4>
+                        <div class="reviews-box__slider-authorstars">
+                          <picture>
+                            <source srcset="./images/reviews-box-author-stars.webp" type="image/webp"><img
+                              src="./images/reviews-box-author-stars.png" alt="reviews-image">
+                          </picture> <span class="reviews-box__author-date">13 Jun 2016</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="reviews-box__slider-comment"> “This is an enormous thank you for not only giving me the
+                      laser treatment that has given me back my sight, but for doing the treatment immediately, after
+                      your clinic hours. It was extremely kind of you to do it on the same day. The result was amazing.
+                      When I got home I realised I could see the actual leaves on the trees! I have been driving again
+                      (only when you can’t drive do you realise how ones life revolves round the car). I am so grateful
+                      for your help.” </div>
+                  </div>
+                </div>
+                <div class="reviews-box__slider-item">
+                  <div class="reviews-box__slider-inner">
+                    <div class="reviews-box__slider-header">
+                      <div class="reviews-box__slider-authorlogo">
+                        <picture>
+                          <source srcset="./images/reviews-box-3.webp" type="image/webp"><img
+                            src="./images/reviews-box-3.png" alt="reviews-image">
+                        </picture>
+                      </div>
+                      <div class="reviews-box__slider-authorinfo">
+                        <h4 class="reviews-box__slider-author"> <a href="reviews.html"> Shane Duffy </a> </h4>
+                        <div class="reviews-box__slider-authorstars">
+                          <picture>
+                            <source srcset="./images/reviews-box-author-stars.webp" type="image/webp"><img
+                              src="./images/reviews-box-author-stars.png" alt="reviews-image">
+                          </picture> <span class="reviews-box__author-date">08 May 2017</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="reviews-box__slider-comment"> I am delighted with the results of my surgery. The fact
+                      that I am able to read most documents without reading glasses is an added bonus. The care I
+                      received during and after my surgery was second to none. </div>
+                  </div>
+                </div>
+                <div class="reviews-box__slider-item">
+                  <div class="reviews-box__slider-inner">
+                    <div class="reviews-box__slider-header">
+                      <div class="reviews-box__slider-authorlogo">
+                        <picture>
+                          <source srcset="./images/reviews-box-4.webp" type="image/webp"><img
+                            src="./images/reviews-box-4.png" alt="reviews-image">
+                        </picture>
+                      </div>
+                      <div class="reviews-box__slider-authorinfo">
+                        <h4 class="reviews-box__slider-author"> <a href="reviews.html"> James Barrie </a> </h4>
+                        <div class="reviews-box__slider-authorstars">
+                          <picture>
+                            <source srcset="./images/reviews-box-author-stars.webp" type="image/webp"><img
+                              src="./images/reviews-box-author-stars.png" alt="reviews-image">
+                          </picture> <span class="reviews-box__author-date">2 February 2022</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="reviews-box__slider-comment"> Couldn't have asked for a better service or result – from
+                      start to finish the whole process has been honest, reassuring and transparent. I had laser eye
+                      surgery at a high street clinic so this was a corrective procedure and the difference has been
+                      worlds apart. </div>
+                  </div>
+                </div>
+                <div class="reviews-box__slider-item">
+                  <div class="reviews-box__slider-inner">
+                    <div class="reviews-box__slider-header">
+                      <div class="reviews-box__slider-authorlogo">
+                        <picture>
+                          <source srcset="./images/reviews-box-5.webp" type="image/webp"><img
+                            src="./images/reviews-box-5.png" alt="reviews-image">
+                        </picture>
+                      </div>
+                      <div class="reviews-box__slider-authorinfo">
+                        <h4 class="reviews-box__slider-author"> <a href="reviews.html"> Yasmine Khalili </a> </h4>
+                        <div class="reviews-box__slider-authorstars">
+                          <picture>
+                            <source srcset="./images/reviews-box-author-stars.webp" type="image/webp"><img
+                              src="./images/reviews-box-author-stars.png" alt="reviews-image">
+                          </picture> <span class="reviews-box__author-date">19 Mar 2021</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="reviews-box__slider-comment"> “I would like to thank you and your team for the excellent
+                      care and attention you gave to me during my recent cataract surgery. I am delighted with the
+                      results and I am very grateful for all you have achieved on my behalf. My eyes are settling down
+                      well and I no longer experience any glare. In fact I can see better than I could wearing contact
+                      lenses or spectacles, which has far exceeded my expectations!” </div>
+                  </div>
+                </div>
+                <div class="reviews-box__slider-item">
+                  <div class="reviews-box__slider-inner">
+                    <div class="reviews-box__slider-header">
+                      <div class="reviews-box__slider-authorlogo">
+                        <picture>
+                          <source srcset="./images/reviews-box-6.webp" type="image/webp"><img
+                            src="./images/reviews-box-6.png" alt="reviews-image">
+                        </picture>
+                      </div>
+                      <div class="reviews-box__slider-authorinfo">
+                        <h4 class="reviews-box__slider-author"> <a href="reviews.html"> Rae </a> </h4>
+                        <div class="reviews-box__slider-authorstars">
+                          <picture>
+                            <source srcset="./images/reviews-box-author-stars.webp" type="image/webp"><img
+                              src="./images/reviews-box-author-stars.png" alt="reviews-image">
+                          </picture> <span class="reviews-box__author-date">03 Apr 2022</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="reviews-box__slider-comment"> “Thank you so much, I am so immensely happy with my new
+                      and improved vision; it has really changed my confidence and my general quality of life. You were
+                      so friendly, funny and hassle-free. I cannot thank you enough! Eternally grateful patient.” </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> <!-- !Faq -->
+      <section class="section__faq">
+        <div class="container">
+          <div class="faq">
+            <div class="faq__item">
+              <h2 class="faq__title"> Frequently asked questions </h2>
+              <!--************************ !ACCORDION ************************ //-->
+              <ul class="faq__item-list">
+                <li class="accordion" data-accordion> <button class="accordion__control" data-control
+                    aria-expanded="false"> <span class="accordion__title"> How long does the diagnosis take ? </span>
+                    <span class="accordion__icon"> </span> </button>
+                  <div class="accordion__content" data-content aria-hidden="true"> Detailed computer vision diagnostics
+                    in our clinic are of two types: full examination - takes 2.5-3 hours and screening examination -
+                    takes 1 hour. </div>
+                </li>
+                <li class="accordion" data-accordion> <button class="accordion__control" data-control
+                    aria-expanded="false"> <span class="accordion__title"> Is it necessary to operate cataract ? </span>
+                    <span class="accordion__icon"> </span> </button>
+                  <div class="accordion__content" data-content aria-hidden="true"> Cataracts not only need to be
+                    operated on, they need to be operated on! After all, cataracts significantly reduce the quality of
+                    life. Also, the more mature the cataract, the more complications it causes: long procedures and
+                    postoperative period, more risk of complications. Also, there are variants of cataract development
+                    that lead to irreversible loss of vision. </div>
+                </li>
+                <li class="accordion" data-accordion> <button class="accordion__control" data-control
+                    aria-expanded="false"> <span class="accordion__title"> What are the limitations of glaucoma ?
+                    </span> <span class="accordion__icon"> </span> </button>
+                  <div class="accordion__content" data-content aria-hidden="true"> Sleep should be full. And it is
+                    advisable to sleep on a large, high pillow and after waking up immediately rise to reduce the
+                    pressure. Do not look at very bright light. In sunny weather it is best to wear sunglasses with UV
+                    protection. If desired, you can even use green glasses, as they calm the nervous system and reduce
+                    intraocular pressure. </div>
+                </li>
+                <li class="accordion" data-accordion> <button class="accordion__control" data-control
+                    aria-expanded="false"> <span class="accordion__title"> How long surgery for laser vision correction
+                      take ? </span> <span class="accordion__icon"> </span> </button>
+                  <div class="accordion__content" data-content aria-hidden="true"> The surgery itself takes about 10-15
+                    minutes for both eyes, but patients spend a total of about 3-4 hours in the clinic. This includes
+                    preparation for the surgery, the surgery, the doctor's examination afterwards, and recommendations
+                    with medications. </div>
+                </li>
+                <li class="accordion" data-accordion> <button class="accordion__control" data-control
+                    aria-expanded="false"> <span class="accordion__title"> How long does it take to start working on a
+                      computer ? </span> <span class="accordion__icon"> </span> </button>
+                  <div class="accordion__content" data-content aria-hidden="true"> During the first 1-2 weeks, it is
+                    desirable to reduce the visual load to 1-2 hours a day, with a gradual increase to 3-4 hours a day
+                    or more. </div>
+                </li>
+                <li class="accordion" data-accordion> <button class="accordion__control" data-control
+                    aria-expanded="false"> <span class="accordion__title"> What time of the Year is better for laser
+                      correction ? </span> <span class="accordion__icon"> </span> </button>
+                  <div class="accordion__content" data-content aria-hidden="true"> It does not matter what time of year
+                    you have the surgery. The main thing is to avoid colds in the first two weeks after surgery. </div>
+                </li>
+              </ul>
+            </div>
+            <div class="faq__item">
+              <div class="faq__img">
+                <picture>
+                  <source srcset="./images/faq.webp" type="image/webp"><img src="./images/faq.png" alt="faq-image">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> <!-- !Blog-box -->
+      <section class="section__blog-box">
+        <div class="container">
+          <div class="blog-box">
+            <div class="blog-box__item">
+              <div class="blog-box__header">
+                <h2 class="blog-box__title"> Blog / News </h2> <a class="blog-box__btn" href="#"> All news <svg
+                    width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 5H12M12 5L7.66667 9M12 5L7.66667 1" stroke="#2E3A40" stroke-width="2"
+                      stroke-linecap="round" />
+                  </svg> </a>
+              </div>
+            </div>
+            <div class="blog-box__item">
+              <div class="blog-box-slider">
+                <div class="blog-box__slider-item">
+                  <div class="blog-box__item-inner"> <a class="blog-box__imglink" href="#">
+                      <picture>
+                        <source srcset="./images/blog-box-1.webp" type="image/webp"><img class="blog-box__item-img"
+                          src="./images/blog-box-1.png" alt="blog-image">
+                      </picture>
+                    </a> <a class="blog-box__title-link" href="#">
+                      <h3 class="blog-box__item-title"> What is better to choose: contact lenses or laser vision
+                        correction? </h3>
+                    </a>
+                    <p class="blog-box__item-news"> Contact lenses have been around since the 1950s, and they have
+                      become increasingly popular ever since. decade significant progress has been made... </p>
+                    <div class="blog-box__item-footer"> <span class="blog-box__item-date"> Jun 2022 </span> <a
+                        class="blog-box__item-link" href="#"> Read more <svg width="26" height="26" viewBox="0 0 26 26"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="13" cy="13" r="13" fill="#FFD362" />
+                          <path d="M7 13H18M18 13L13.6667 17M18 13L13.6667 9" stroke="#2E3A40" stroke-width="2"
+                            stroke-linecap="round" />
+                        </svg> </a> </div>
+                  </div>
+                </div>
+                <div class="blog-box__slider-item">
+                  <div class="blog-box__item-inner"> <a class="blog-box__imglink" href="#">
+                      <picture>
+                        <source srcset="./images/blog-box-2.webp" type="image/webp"><img class="blog-box__item-img"
+                          src="./images/blog-box-2.png" alt="blog-image">
+                      </picture>
+                    </a> <a class="blog-box__title-link" href="#">
+                      <h3 class="blog-box__item-title"> Laser correction is the result of 40 years of technology. </h3>
+                    </a>
+                    <p class="blog-box__item-news"> To date, more than one hundred and fifteen million eye surgeries
+                      have been performed worldwide to correct eyesight through laser correction. But until now... </p>
+                    <div class="blog-box__item-footer"> <span class="blog-box__item-date"> Juli 2022 </span> <a
+                        class="blog-box__item-link" href="#"> Read more <svg width="26" height="26" viewBox="0 0 26 26"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="13" cy="13" r="13" fill="#FFD362" />
+                          <path d="M7 13H18M18 13L13.6667 17M18 13L13.6667 9" stroke="#2E3A40" stroke-width="2"
+                            stroke-linecap="round" />
+                        </svg> </a> </div>
+                  </div>
+                </div>
+                <div class="blog-box__slider-item">
+                  <div class="blog-box__item-inner"> <a class="blog-box__imglink" href="#">
+                      <picture>
+                        <source srcset="./images/blog-box-3.webp" type="image/webp"><img class="blog-box__item-img"
+                          src="./images/blog-box-3.png" alt="blog-image">
+                      </picture>
+                    </a> <a class="blog-box__title-link" href="#">
+                      <h3 class="blog-box__item-title"> How do I take care of my eyesight? </h3>
+                    </a>
+                    <p class="blog-box__item-news"> No one would be surprised to learn that the eyes are under the most
+                      strain. That's why you should treat your eyes with special care. ... </p>
+                    <div class="blog-box__item-footer"> <span class="blog-box__item-date"> Aug 2022 </span> <a
+                        class="blog-box__item-link" href="#"> Read more <svg width="26" height="26" viewBox="0 0 26 26"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="13" cy="13" r="13" fill="#FFD362" />
+                          <path d="M7 13H18M18 13L13.6667 17M18 13L13.6667 9" stroke="#2E3A40" stroke-width="2"
+                            stroke-linecap="round" />
+                        </svg> </a> </div>
+                  </div>
+                </div>
+                <div class="blog-box__slider-item">
+                  <div class="blog-box__item-inner"> <a class="blog-box__imglink" href="#">
+                      <picture>
+                        <source srcset="./images/blog-box-4.webp" type="image/webp"><img class="blog-box__item-img"
+                          src="./images/blog-box-4.png" alt="blog-image">
+                      </picture>
+                    </a> <a class="blog-box__title-link" href="#">
+                      <h3 class="blog-box__item-title"> How to choose the right sunglasses? </h3>
+                    </a>
+                    <p class="blog-box__item-news"> We all noticed a long time ago that sunglasses are no longer just a
+                      fashion accessory. With these we use them to protect our eyes from the sun's harmful radiation...
+                    </p>
+                    <div class="blog-box__item-footer"> <span class="blog-box__item-date"> Sept 2022 </span> <a
+                        class="blog-box__item-link" href="#"> Read more <svg width="26" height="26" viewBox="0 0 26 26"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="13" cy="13" r="13" fill="#FFD362" />
+                          <path d="M7 13H18M18 13L13.6667 17M18 13L13.6667 9" stroke="#2E3A40" stroke-width="2"
+                            stroke-linecap="round" />
+                        </svg> </a> </div>
+                  </div>
+                </div>
+                <div class="blog-box__slider-item">
+                  <div class="blog-box__item-inner"> <a class="blog-box__imglink" href="#">
+                      <picture>
+                        <source srcset="./images/blog-box-5.webp" type="image/webp"><img class="blog-box__item-img"
+                          src="./images/blog-box-5.png" alt="blog-image">
+                      </picture>
+                    </a> <a class="blog-box__title-link" href="#">
+                      <h3 class="blog-box__item-title"> How to relieve eye strain? </h3>
+                    </a>
+                    <p class="blog-box__item-news"> All of us have had to face the fact that, after sitting for quite a
+                      long time at the computer, television or book, and raising our head or looking into the distance,
+                      we can not clearly see ... </p>
+                    <div class="blog-box__item-footer"> <span class="blog-box__item-date"> Oct 2022 </span> <a
+                        class="blog-box__item-link" href="#"> Read more <svg width="26" height="26" viewBox="0 0 26 26"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="13" cy="13" r="13" fill="#FFD362" />
+                          <path d="M7 13H18M18 13L13.6667 17M18 13L13.6667 9" stroke="#2E3A40" stroke-width="2"
+                            stroke-linecap="round" />
+                        </svg> </a> </div>
+                  </div>
+                </div>
+                <div class="blog-box__slider-item">
+                  <div class="blog-box__item-inner"> <a class="blog-box__imglink" href="#">
+                      <picture>
+                        <source srcset="./images/blog-box-6.webp" type="image/webp"><img class="blog-box__item-img"
+                          src="./images/blog-box-6.png" alt="blog-image">
+                      </picture>
+                    </a> <a class="blog-box__title-link" href="#">
+                      <h3 class="blog-box__item-title"> Products good for your eyesight </h3>
+                    </a>
+                    <p class="blog-box__item-news"> There are many reasons why our eyesight is getting worse. Visual
+                      acuity decreases not only because of bad habits, but our eyes... </p>
+                    <div class="blog-box__item-footer"> <span class="blog-box__item-date"> Mar 2022 </span> <a
+                        class="blog-box__item-link" href="#"> Read more <svg width="26" height="26" viewBox="0 0 26 26"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="13" cy="13" r="13" fill="#FFD362" />
+                          <path d="M7 13H18M18 13L13.6667 17M18 13L13.6667 9" stroke="#2E3A40" stroke-width="2"
+                            stroke-linecap="round" />
+                        </svg> </a> </div>
+                  </div>
+                </div>
+                <div class="blog-box__slider-item">
+                  <div class="blog-box__item-inner"> <a class="blog-box__imglink" href="#">
+                      <picture>
+                        <source srcset="./images/blog-box-7.webp" type="image/webp"><img class="blog-box__item-img"
+                          src="./images/blog-box-7.png" alt="blog-image">
+                      </picture>
+                    </a> <a class="blog-box__title-link" href="#">
+                      <h3 class="blog-box__item-title"> Computer vision diagnostics </h3>
+                    </a>
+                    <p class="blog-box__item-news"> Not long ago, ophthalmologists diagnosed eye diseases by simple
+                      means. But times have changed, and now the eyes and vision can be examined using a particularly
+                      accurate method... </p>
+                    <div class="blog-box__item-footer"> <span class="blog-box__item-date"> Feb 2022 </span> <a
+                        class="blog-box__item-link" href="#"> Read more <svg width="26" height="26" viewBox="0 0 26 26"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="13" cy="13" r="13" fill="#FFD362" />
+                          <path d="M7 13H18M18 13L13.6667 17M18 13L13.6667 9" stroke="#2E3A40" stroke-width="2"
+                            stroke-linecap="round" />
+                        </svg> </a> </div>
+                  </div>
+                </div>
+                <div class="blog-box__slider-item">
+                  <div class="blog-box__item-inner"> <a class="blog-box__imglink" href="#">
+                      <picture>
+                        <source srcset="./images/blog-box-8.webp" type="image/webp"><img class="blog-box__item-img"
+                          src="./images/blog-box-8.png" alt="blog-image">
+                      </picture>
+                    </a> <a class="blog-box__title-link" href="#">
+                      <h3 class="blog-box__item-title"> Herpes virus of the eye </h3>
+                    </a>
+                    <p class="blog-box__item-news"> It's very unpleasant when your heart is full of love, but you can't
+                      kiss the one you love. Why not? Maybe the problem is that there is a herpes virus on the lips,
+                      which is transmitted from one person to another.... </p>
+                    <div class="blog-box__item-footer"> <span class="blog-box__item-date"> Mai 2022 </span> <a
+                        class="blog-box__item-link" href="#"> Read more <svg width="26" height="26" viewBox="0 0 26 26"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="13" cy="13" r="13" fill="#FFD362" />
+                          <path d="M7 13H18M18 13L13.6667 17M18 13L13.6667 9" stroke="#2E3A40" stroke-width="2"
+                            stroke-linecap="round" />
+                        </svg> </a> </div>
+                  </div>
+                </div>
+                <div class="blog-box__slider-item">
+                  <div class="blog-box__item-inner"> <a class="blog-box__imglink" href="#">
+                      <picture>
+                        <source srcset="./images/blog-box-9.webp" type="image/webp"><img class="blog-box__item-img"
+                          src="./images/blog-box-9.png" alt="blog-image">
+                      </picture>
+                    </a> <a class="blog-box__title-link" href="#">
+                      <h3 class="blog-box__item-title"> A tablet computer does not affect vision ? </h3>
+                    </a>
+                    <p class="blog-box__item-news"> Talking about the harm of TV for children, for a long time we have
+                      been scaring them by saying that from watching TV for a long time they would have to wear
+                      glasses... </p>
+                    <div class="blog-box__item-footer"> <span class="blog-box__item-date"> Dec 2022 </span> <a
+                        class="blog-box__item-link" href="#"> Read more <svg width="26" height="26" viewBox="0 0 26 26"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="13" cy="13" r="13" fill="#FFD362" />
+                          <path d="M7 13H18M18 13L13.6667 17M18 13L13.6667 9" stroke="#2E3A40" stroke-width="2"
+                            stroke-linecap="round" />
+                        </svg> </a> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> <!-- !Consultation  -->
+      <section class="section__consultation">
+        <div class="container">
+          <div class="consultation">
+            <div class="consultation__decor"> <svg width="90" height="415" viewBox="0 0 90 417" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line x1="46" y1="9" x2="46" y2="416" stroke="#E0E7EA" stroke-width="2" stroke-linecap="square" />
+                <g filter="url(#filter0_d_0_1)">
+                  <circle cx="45" cy="41" r="33" fill="#5AC134" />
+                  <path
+                    d="M54.5822 28.0358H35.4176C33.5498 28.0358 32.0356 29.5528 32.0356 31.4242V43.7818C32.0356 45.6532 33.5498 47.1702 35.4176 47.1702H36.8973V55.1429L44.9999 47.1702H54.5822C56.4501 47.1702 57.9642 45.6532 57.9642 43.7818V31.4242C57.9642 29.5528 56.45 28.0358 54.5822 28.0358Z"
+                    stroke="#2E3A40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M38.5181 34.4138H51.4824M38.5181 40.792H46.6207" stroke="#2E3A40" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </g>
+                <defs>
+                  <filter id="filter0_d_0_1" x="0" y="0" width="90" height="90" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="6" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix"
+                      values="0 0 0 0 0.0981771 0 0 0 0 0.120833 0 0 0 0 0.111318 0 0 0 0.15 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
+                  </filter>
+                </defs>
+              </svg> </div>
+            <h2 class="consultation__title"> Sign up for a consultation </h2>
+            <h3 class="consultation__subtitle"> And get a <span>10% discount</span> when booking online </h3>
+            <form class="consultation__form">
+              <div class="consultation__form-item"> <input class="consultation__input-name " type="text" required
+                  id="name" placeholder="Mike"> <label class="consultation__name" for="name"> Your name* </label>
+                <button class="consultation__button" type="submit"> Make an appointment </button> </div>
+              <div class="consultation__form-item"> <input class="consultation__input-phone" type="tel"
+                  placeholder="Phone number" required id="phone"> <label class="consultation__phone" for="phone"> Your
+                  phone number* </label>
+                <div class="consultation__accordion"> <button class="consultation__accordion-control"> <span
+                      class="consultation-accordion-title"> Add a comment </span> <span
+                      class="consultation__accordion-icon"> </span> </button>
+                  <div class="consultation__accordion-content"> <input class="consultation__accordion-comment"
+                      type="text" placeholder="Add a commentary"> </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section> <!-- !Phones -->
+      <section class="section__phones">
+        <div class="conatiner">
+          <div class="phones">
+            <ul class="phones__list">
+              <li class="phones__list-item ">
+                <h4 class="phones__list-title">Or make an appointment by phone</h4>
+              </li>
+              <li class="phones__list-item"> <a class="phones__list-link" href="tel:+447801767690">+44 7801 767 690</a>
+              </li>
+              <li class="phones__list-item"> <a class="phones__list-link" href="tel:+447802767690"> +44 7802 767 690
+                </a> </li>
+              <li class="phones__list-decor">
+                <picture>
+                  <source srcset="./images/phones-decor.svg" type="image/webp"><img src="./images/phones-decor.svg"
+                    alt="phone-image">
+                </picture>
+              </li>
+            </ul>
+            <div class="phones__decor-spheres">
+              <picture>
+                <source srcset="./images/phones-decor-2.webp" type="image/webp"><img src="./images/phones-decor-2.png"
+                  alt="phone-image">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section> <!-- !Location -->
+      <section class="section__location">
+        <h2 class="section__location-title"> Where do we stand? </h2>
+        <div class="container">
+          <div class="location">
+            <div class="location__decor">
+              <picture>
+                <source srcset="./images/location-decor.svg" type="image/webp"><img src="./images/location-decor.svg"
+                  alt="location">
+              </picture>
+            </div>
+            <div class="location__map"> <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10069.548072311001!2d-0.1471080241710899!3d51.51817956678411!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5fed23040fefed62!2sLondon%20Ophthalmology%20Centre!5e0!3m2!1sen!2sde!4v1672855470970!5m2!1sen!2sde"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" title="Location of Ophtalmology Center"></iframe> </div>
+            <ul class="location__timeline">
+              <li class="location__timeline-item">
+                <div class="location__timeline-address"> Anne St, London <br> <span>13-17</span> </div>
+              </li>
+              <li class="location__timeline-item">
+                <p class="location__timeline-days">Monday - Friday</p>
+                <p class="location__timeline-hours">8:00-17:00</p>
+              </li>
+              <li class="location__timeline-item">
+                <p class="location__timeline-days">Saturday</p>
+                <p class="location__timeline-hours">8:00-16:00</p>
+              </li>
+              <li class="location__timeline-item">
+                <p class="location__timeline-days">Sunday</p>
+                <p class="location__timeline-hours">Day off</p>
+              </li>
+            </ul>
+            <div class="scrolltotop"> <svg width="70" height="70" viewBox="0 0 70 70" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect width="70" height="70" rx="13" fill="#5AC134" />
+                <path d="M44.3337 38.4983L35.0003 29.165L25.667 38.4983" stroke="#2E3A40" stroke-width="2"
+                  stroke-linecap="round" />
+              </svg> </div>
+          </div>
+        </div>
+      </section>
+    </main> <!-- !Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__item footer__item--first">
+            <div class="footer__logo">
+              <picture>
+                <source srcset="./images/footer-logo.svg" type="image/webp"><img src="./images/footer-logo.svg"
+                  alt="logo">
+              </picture>
+            </div>
+            <ul class="footer__contacts">
+              <li class="footer__contacts-item footer__contacts--first">
+                <p class="footer__contacts-address"> 13-17 Anne St, London </p> <a class="footer__contacts-mail"
+                  href="mailto:info@eyecenter.com">info@eyecenter.com</a>
+              </li>
+              <li class="footer__contacts-item footer__contacts--second">
+                <p class="footer__contacts-text"> Booking by phone </p> <a class="footer__contacts-link"
+                  href="tel:447801767690" aria-label="+44 7801 767 690">+44 7801 767 690</a> <a
+                  class="footer__contacts-link" href="tel:447802767690" aria-label="+44 7801 767 680">+44 7801 767
+                  680</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item footer__item--second">
+            <h3 class="footer__item-title"> Services </h3>
+            <ul class="footer__services">
+              <li class="footer__services-item"> <a class="footer__services-link" href="services.html"> Retinal
+                  detachment </a> </li>
+              <li class="footer__services-item"> <a class="footer__services-link" href="services.html"> Optics </a>
+              </li>
+              <li class="footer__services-item"> <a class="footer__services-link" href="services.html"> Treatment of
+                  glaucoma </a> </li>
+              <li class="footer__services-item"> <a class="footer__services-link" href="services.html"> Treatment of
+                  cataracts </a> </li>
+              <li class="footer__services-item"> <a class="footer__services-link" href="services.html"> Age related
+                  macular degeneration </a> </li>
+              <li class="footer__services-item"> <a class="footer__services-link" href="services.html"> Macular hole
+                </a> </li>
+              <li class="footer__services-item"> <a class="footer__services-link" href="services.html"> Injection of
+                  drugs into the vitreous body </a> </li>
+              <li class="footer__services-item"> <a class="footer__services-link" href="services.html"> Laser
+                  coagulation of the retina </a> </li>
+            </ul>
+          </div>
+          <div class="footer__item footer__item--third">
+            <h3 class="footer__item-title"> About the clinic </h3>
+            <ul class="footer__about">
+              <li class="footer__about-title"> <a class="footer__about-link" href="prices.html"> Prices </a> </li>
+              <li class="footer__about-title"> <a class="footer__about-link" href="doctors.html"> Doctors </a> </li>
+              <li class="footer__about-title"> <a class="footer__about-link" href="services.html"> Equipment </a> </li>
+              <li class="footer__about-title"> <a class="footer__about-link" href="actions.html"> To patients </a> </li>
+              <li class="footer__about-title"> <a class="footer__about-link" href="reviews.html"> News </a> </li>
+              <li class="footer__about-title"> <a class="footer__about-link" href="contacts.html"> Contacts </a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-item"> <a class="footer__bottom-copy" href="#"> © 2022 "Ophtalmology Center" - WEB
+              Group </a> </div>
+          <ul class="footer__socials">
+            <li class="footer__socials-item"> <a class="footer__socials-link" href="#">
+                <picture>
+                  <source srcset="./images/twitter.svg" type="image/webp"><img class="footer__socials-icon"
+                    src="./images/twitter.svg" alt="twitter">
+                </picture>
+              </a> </li>
+            <li class="footer__socials-item"> <a class="footer__socials-link" href="#">
+                <picture>
+                  <source srcset="./images/linkedin.svg" type="image/webp"><img class="footer__socials-icon"
+                    src="./images/linkedin.svg" alt="linkedin">
+                </picture>
+              </a> </li>
+            <li class="footer__socials-item"> <a class="footer__socials-link" href="#">
+                <picture>
+                  <source srcset="./images/facebook.svg" type="image/webp"><img class="footer__socials-icon"
+                    src="./images/facebook.svg" alt="facebook">
+                </picture>
+              </a> </li>
+            <li class="footer__socials-item"> <a class="footer__socials-link" href="#">
+                <picture>
+                  <source srcset="./images/whatsup.svg" type="image/webp"><img class="footer__socials-icon"
+                    src="./images/whatsup.svg" alt="twitter">
+                </picture>
+              </a> </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

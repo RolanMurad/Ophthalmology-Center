@@ -1,0 +1,52 @@
+// !Phones
+.section__phones {
+  background-color: #F69C0F;
+}
+
+.phones {
+  display: flex;
+
+  &__list {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    margin-left: auto;
+  }
+
+  &__list-title {
+    font-weight: 500;
+    line-height: 145%;
+    color: #FFFFFF;
+  }
+
+  &__list-link {
+    @extend%title-fonts;
+    font-style: normal;
+    line-height: 120%;
+    color: #FFFFFF;
+    transition: all .3s ease-in-out;
+    &:hover{
+      color: #5ac134;
+    }
+  }
+
+  &__list-decor {
+    position: absolute;
+    top: 0;
+    left: -203px;
+    z-index: 20;
+  }
+
+  &__decor-spheres {
+    margin-left: auto;
+
+    img {
+      max-width: 421px;
+      height: auto;
+      width: 100%;
+    }
+  }
+}

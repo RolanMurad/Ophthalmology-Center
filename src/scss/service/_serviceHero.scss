@@ -1,0 +1,25 @@
+// !Service
+.section__service-hero {
+  background: linear-gradient(to right, #F2F5F5 63%, #F69C0F 50%);
+}
+
+.service-hero {
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__links {
+    margin-top: 40px;
+  }
+
+  &__breadcrumbs{
+    padding: 60px 0px;
+    background: linear-gradient(to right, #F2F5F5 63%, #F69C0F 50%);
+  }
+}
+
+.hero__img{
+  position: relative;
+  top: -50px;
+}

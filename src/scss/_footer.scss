@@ -1,0 +1,156 @@
+//!Footer
+.footer {
+  background-color: #F69C0F;
+
+  &__top {
+    padding: 51px 0 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  &__item--first {
+    margin-right: 200px;
+  }
+
+  &__item--second {
+    margin-right: 100px;
+    align-self: center;
+  }
+
+  &__item--third {
+    align-self: center;
+  }
+
+  &__logo {
+    max-width: 350px;
+  }
+
+  &__item-title {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 130%;
+    margin-bottom: 20px;
+  }
+}
+
+.footer__contacts {
+  &-address {
+    font-weight: 500;
+    line-height: 145%;
+    color: #FFFFFF;
+    padding-top: 20px;
+    margin-top: 20px;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 350px;
+      height: 2px;
+      background-color: rgba(255, 255, 255, 0.5);
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+  }
+
+  &-mail {
+    font-weight: 500;
+    line-height: 145%;
+    color: #FFFFFF;
+  }
+
+  &--first {
+    margin-bottom: 30px;
+  }
+
+  &-text {
+    line-height: 145%;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+  }
+
+  &-link {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    color: #FFFFFF;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      color: #5ac134;
+    }
+  }
+
+  &--second {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+  }
+}
+
+.footer__services {
+
+  &-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &-link {
+    line-height: 145%;
+    color: #FFFFFF;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      color: #5ac134;
+    }
+  }
+}
+
+.footer__about {
+
+  &-title:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  &-link {
+    line-height: 145%;
+    color: #FFFFFF;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      color: #5ac134;
+    }
+  }
+}
+
+.footer__bottom {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: flex-start;
+
+  &-item {
+    margin-right: 215px;
+  }
+
+  &-copy {
+    line-height: 145%;
+    color: #FFFFFF;
+  }
+}
+
+.footer__socials {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  &-icon {
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      scale: 1.2;
+    }
+  }
+}

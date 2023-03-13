@@ -1,0 +1,139 @@
+// !Reviews-box
+.section__reviews-box {
+  padding: 110px 0;
+}
+
+.reviews-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews-box__header {
+  display: flex;
+  justify-content: flex-start;
+
+  &-decor {
+    img {
+      max-width: 90px;
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  &-img {
+    img {
+      max-width: 230px;
+    }
+  }
+
+  &-info {
+    margin-left: 139px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 595px;
+  }
+
+  &-title {
+    @extend%title-fonts;
+    line-height: 120%;
+  }
+
+  &-score {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  &-btn {
+    position: relative;
+
+    svg {
+      position: absolute;
+      width: 19px;
+      height: 19px;
+      left: 30px;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 10;
+    }
+
+    &>svg path {
+      stroke: #2E3A40;
+      transition: all .3s ease-in-out;
+    }
+
+    &:hover>svg path {
+      stroke: #FFFFFF;
+    }
+  }
+
+  &-inner {
+    display: flex;
+    align-self: center;
+    gap: 14px;
+  }
+
+  &-mark {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 120%;
+    color: #2E3A40;
+  }
+}
+
+.reviews-box__slider {
+
+  &-inner {
+    background: #FFFFFF;
+    border: 2px solid #E0E7EA;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    max-width: 410px;
+    position: relative;
+  }
+
+  &-header {
+    display: flex;
+    gap: 20px;
+  }
+
+  &-authorlogo {
+    img {
+      max-width: 60px;
+    }
+  }
+
+  &-author {
+    a {
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 120%;
+      color: #2E3A40;
+    }
+
+    a::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+    }
+  }
+
+  &-authorstars {
+    display: flex;
+    gap: 10px;
+
+    img {
+      max-width: 122px;
+    }
+  }
+}
