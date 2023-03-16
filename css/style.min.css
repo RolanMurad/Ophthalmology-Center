@@ -1801,6 +1801,14 @@ body {
   background: linear-gradient(to right, #F2F5F5 63%, #F69C0F 50%);
 }
 
+.hero__wrapper {
+  min-height: calc(100vh - 159px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero {
   display: -webkit-box;
   display: -ms-flexbox;
